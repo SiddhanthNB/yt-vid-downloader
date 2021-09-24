@@ -20,6 +20,6 @@ $ pip install -r requirements.txt
 ```
 	
 ## Execution
-To run the project, you can directly run the ```compare_img.py``` file and provide the directory path for both the images.
+To run the project, you can directly run the ```youthoob.py``` file and further provide the video link and desired resolution when prompted.
 
 ```$ python3 youthoob.py```
