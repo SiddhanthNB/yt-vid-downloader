@@ -8,7 +8,9 @@ To use it, you require the following:
 ```
 
 ## Installation and Setup
-Once you got the requisites on your machine, clone this repo or download and extract the zip, once in the right folder for a UNIX based system executing the following command to install the required libraries:
+Once you got the requisites on your machine, clone this repo or download and extract the zip.
+
+ From the right folder, for a UNIX based system executing the following command will install the required libraries:
 ```
 make init
 source .venv/bin/activate
