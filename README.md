@@ -12,8 +12,8 @@ Once you got the requisites on your machine, clone this repo or download and ext
 
  From the right folder, for a UNIX based system executing the following command will install the required libraries:
 ```
-make init
-source .venv/bin/activate
+$ make init
+$ source .venv/bin/activate
 ```
 
 OR executing the following command will install all the required libraries for you:
