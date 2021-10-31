@@ -37,7 +37,7 @@ downloaded = False
 if video_res in [
     stream.resolution for stream in my_streams.filter(
         progressive=True)]:
-    if video_res == "144p":
+    if video_res == "144p" and my_streams.get_by_resolution(video_res) == None:
         req_stream = my_streams.get_by_itag(17)
     else:
         req_stream = my_streams.get_by_resolution(video_res)
